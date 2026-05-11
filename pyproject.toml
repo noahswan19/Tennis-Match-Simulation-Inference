@@ -1,0 +1,26 @@
+[project]
+name = "tennis-simulations-updated"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "joblib>=1.5.3",
+    "lightning>=2.6.1",
+    "matplotlib>=3.10.8",
+    "polars>=1.38.1",
+    "pyarrow>=23.0.1",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "setuptools==71.0.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.10.0",
+    "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+    "ruff>=0.15.12",
+]
