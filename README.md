@@ -10,7 +10,7 @@ Rather than predicting match results from rankings or summary statistics directl
 
 Data comes from Jeff Sackmann's open-source [tennis_atp](https://github.com/JeffSackmann/tennis_atp) dataset covering ATP matches from 2003 through 2023. Models are trained on 2003–2022 data and evaluated on a held-out 2023 set.
 
-This project is the evolution of a project I worked on before with a more extensive write up [here][https://medium.com/@noahswan19/simulating-tennis-matches-with-maximum-likelihood-estimation-6e4c0ca1370e]. The major changes in this project correspond to the modeling of player statistics. Instead of truncated normal distributions, this updated version models statstics as rates on binomial random variables with Beta priors and posteriors.
+This project is the evolution of a project I worked on before with a more extensive write up [here](https://medium.com/@noahswan19/simulating-tennis-matches-with-maximum-likelihood-estimation-6e4c0ca1370e). The major changes in this project correspond to the modeling of player statistics. Instead of truncated normal distributions, this updated version models statstics as rates on binomial random variables with Beta priors and posteriors.
 
 ---
 
